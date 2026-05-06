@@ -11,14 +11,14 @@
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="index.html">Skill Bridge</a>
+            <a class="navbar-brand fw-bold" href="/">Skill Bridge</a>
             <div class="navbar-nav ms-auto flex-row gap-3 align-items-center">
-                <a class="nav-link text-white" href="index.html">Home</a>
-                <a class="nav-link text-white" href="jobs.html">Find Jobs</a>
-                <a class="nav-link text-white" href="post.html">Post a Gig</a>
+                <a class="nav-link text-white" href="/">Home</a>
+                <a class="nav-link text-white" href="/jobs/">Find Jobs</a>
+                <a class="nav-link text-white" href="/post/">Post a Gig</a>
                 <div class="ms-2 d-flex gap-2">
-                    <a class="btn btn-outline-light px-3" href="login.html">Login</a>
-                    <a class="btn btn-primary px-3" href="signup.html">Sign Up</a>
+                    <a class="btn btn-outline-light px-3" href="/login/">Login</a>
+                    <a class="btn btn-primary px-3" href="/signup/">Sign Up</a>
                 </div>
             </div>
         </div>
@@ -35,7 +35,7 @@
                     </div>
                     
                     <!-- Smoke & Mirrors: Form submission redirects to the dashboard -->
-                    <form onsubmit="event.preventDefault(); alert('Account Created! Welcome to Skill Bridge.'); window.location.href='jobs.html';">
+                    <form onsubmit="event.preventDefault(); alert('Account Created! Welcome to Skill Bridge.'); window.location.href='/jobs/';">
                         
                         <div class="row">
                             <div class="col-md-6 mb-3">
@@ -74,7 +74,7 @@
                         <button type="submit" class="btn btn-primary btn-lg w-100 fw-bold mb-3">Create Account</button>
                         
                         <div class="text-center">
-                            <p class="mb-0">Already have an account? <a href="login.html" class="text-primary text-decoration-none">Log in</a></p>
+                            <p class="mb-0">Already have an account? <a href="/login/" class="text-primary text-decoration-none">Log in</a></p>
                         </div>
                     </form>
                 </div>

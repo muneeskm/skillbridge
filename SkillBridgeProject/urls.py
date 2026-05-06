@@ -22,4 +22,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('skillbridge_app.urls')),
     path('', views.home, name='home'),
+    path('jobs/', views.jobs, name='jobs'),
+    path('login/', views.login, name='login'),
+    path('post/', views.post, name='post'),
+    path('signup/', views.signup, name='signup')
 ]
